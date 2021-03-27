@@ -1,0 +1,32 @@
+{
+  "name": "git-commit-helper",
+  "version": "0.1.0",
+  "description": "Git Commit Helper",
+  "author": "James Young <jmeyoung@gmail.com> (http://jamsyoung.com/)",
+  "main": "bin/gch.js",
+  "scripts": {
+    "generate-changelog": "changelog-maker --group",
+    "test": "eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamsyoung/git-commit-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamsyoung/git-commit-helper/issues"
+  },
+  "homepage": "https://github.com/jamsyoung/git-commit-helper#readme",
+  "engines": {
+    "node": "4.1.2",
+    "npm": "2.14.4"
+  },
+  "dependencies": {
+    "inquirer": "0.10.1",
+    "request": "2.65.0"
+  },
+  "devDependencies": {
+    "changelog-maker": "1.8.2",
+    "eslint": "1.6.0"
+  },
+  "license": "MIT"
+}
